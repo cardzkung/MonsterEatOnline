@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: ebf09ee5511d0e240a17e855c6b8022b
+timeCreated: 1445164062
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kG8XI_0
+    21300002: kG8XI_1
+    21300004: kG8XI_2
+    21300006: kG8XI_3
+    21300008: kG8XI_4
+    21300010: kG8XI_5
+    21300012: kG8XI_6
+    21300014: kG8XI_7
+    21300016: kG8XI_8
+    21300018: kG8XI_9
+    21300020: kG8XI_10
+    21300022: kG8XI_11
+    21300024: kG8XI_12
+    21300026: kG8XI_13
+    21300028: kG8XI_14
+    21300030: kG8XI_15
+    21300032: kG8XI_16
+    21300034: kG8XI_17
+    21300036: kG8XI_18
+    21300038: kG8XI_19
+    21300040: kG8XI_20
+    21300042: kG8XI_21
+    21300044: kG8XI_22
+    21300046: kG8XI_23
+    21300048: kG8XI_24
+    21300050: kG8XI_25
+    21300052: kG8XI_26
+    21300054: kG8XI_27
+    21300056: kG8XI_28
+    21300058: kG8XI_29
+    21300060: kG8XI_30
+    21300062: kG8XI_31
+    21300064: kG8XI_32
+    21300066: kG8XI_33
+    21300068: kG8XI_34
+    21300070: kG8XI_35
+    21300072: kG8XI_36
+    21300074: kG8XI_37
+    21300076: kG8XI_38
+    21300078: kG8XI_39
+    21300080: kG8XI_40
+    21300082: kG8XI_41
+    21300084: kG8XI_42
+    21300086: kG8XI_43
+    21300088: kG8XI_44
+    21300090: kG8XI_45
+    21300092: kG8XI_46
+    21300094: kG8XI_47
+    21300096: kG8XI_48
+    21300098: kG8XI_49
+    21300100: kG8XI_50
+    21300102: kG8XI_51
+    21300104: kG8XI_52
+    21300106: kG8XI_53
+    21300108: kG8XI_54
+    21300110: kG8XI_55
+    21300112: kG8XI_56
+    21300114: kG8XI_57
+    21300116: kG8XI_58
+    21300118: kG8XI_59
+    21300120: kG8XI_60
+    21300122: kG8XI_61
+    21300124: kG8XI_62
+    21300126: kG8XI_63
+    21300128: kG8XI_64
+    21300130: kG8XI_65
+    21300132: kG8XI_66
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kG8XI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 244
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 243
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 243
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 243
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 245
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 241
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 241
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 241
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 240
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 242
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 225
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 226
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 226
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 224
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 225
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 225
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 208
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 209
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 209
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 210
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 210
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 208
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 208
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_29
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 209
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 195
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 195
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 193
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 194
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_35
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 195
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_36
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 195
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 176
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 176
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_40
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 176
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 176
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 176
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 160
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_49
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 161
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_55
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 144
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 129
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_58
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 129
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_59
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_60
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 129
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 113
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 113
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_64
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 113
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 113
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kG8XI_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
