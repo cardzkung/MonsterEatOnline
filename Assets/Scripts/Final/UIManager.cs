@@ -41,6 +41,12 @@ public class UIManager : MonoBehaviour {
 		HP--;
 	}
 
+	public static IEnumerator SpeedUp(){
+		MonsterController.maxSpeed = 8f;
+		yield return new WaitForSeconds (3);
+		MonsterController.maxSpeed = 4f;
+	}
+
 	void Update () {
 		ScoreTxt.text = "SCORE: " + Score;
 		HitTxt.text = "HIT: " + Hit;
@@ -48,7 +54,7 @@ public class UIManager : MonoBehaviour {
 	}
 
 	public GUISkin mySkin;
-	
+
 	
 	void OnGUI(){
 		GUI.skin = mySkin;

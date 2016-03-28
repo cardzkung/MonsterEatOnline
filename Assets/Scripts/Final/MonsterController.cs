@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MonsterController : MonoBehaviour {
 
-	public float maxSpeed = 5f;
+	public static float maxSpeed = 4f;
 	private Rigidbody2D rb2D;
 	Animator anim;
 	
@@ -55,7 +55,8 @@ public class MonsterController : MonoBehaviour {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerScore += 1;
 			UIManager.EggScore();
-			transform.localScale += new Vector3 (0.2f, 0.2f, 0.2f);
+			transform.localScale += new Vector3 (0.1f, 0.1f, 0.1f);
+			//GameObject.FindGameObjectWithTag("PlayerCam").GetComponent<CircleCollider2D>().radius += 0.1f;
 			GetComponents<AudioSource> () [0].Play ();
 		} 
 		//Bonus's Effect
@@ -63,7 +64,7 @@ public class MonsterController : MonoBehaviour {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerScore += 10;
 			UIManager.BonusScore();
-			transform.localScale -= new Vector3 (1f, 1f, 1f);
+			transform.localScale -= new Vector3 (0.5f, 0.5f, 0.5f);
 			GetComponents<AudioSource> () [0].Play ();
 		} 
 		//Hit's Effect
@@ -88,10 +89,10 @@ public class MonsterController : MonoBehaviour {
 		} //else if (hitInfo.gameObject.tag == "Heart") {
 			//Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerLives += 1;
-		//} else if (hitInfo.gameObject.tag == "SpeedUp") {
-			//Destroy (hitInfo.gameObject);
-			//maxSpeed += 2f;
-		//}
+		 else if (hitInfo.gameObject.tag == "SpeedUp") {
+			Destroy (hitInfo.gameObject);
+			StartCoroutine (UIManager.SpeedUp());
+		}
 	}
 
 }

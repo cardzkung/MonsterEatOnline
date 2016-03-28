@@ -9,6 +9,7 @@ public class Spawn : MonoBehaviour {
 	public GameObject Egg;
 	public GameObject Bonus;
 	public GameObject Hit;
+	public GameObject SpeedUp;
 
 
 	void Start () {
@@ -28,7 +29,9 @@ public class Spawn : MonoBehaviour {
 		int RandomTimeSpawnBonus = Random.Range (25, 30);
 			InvokeRepeating ("SpawnBonus", 30f, RandomTimeSpawnBonus);
 		int RandomTimeSpawnHit = Random.Range (50, 60);
-			InvokeRepeating ("SpawnHit", 40f, RandomTimeSpawnHit); 
+			InvokeRepeating ("SpawnHit", 40f, RandomTimeSpawnHit);
+		int RandomTimeSpawnSpeedUp = Random.Range (20, 30);
+			InvokeRepeating ("SpawnSpeedUp", 20f, RandomTimeSpawnSpeedUp);
 	}
 
 	//SpawnChickenMoveUp
@@ -64,6 +67,12 @@ public class Spawn : MonoBehaviour {
 	//SpawnHit
 	void SpawnHit(){
 		Instantiate (Hit, new Vector3 (Random.Range (-16, 16), Random.Range (-9, 9), 0)
+		             , Quaternion.identity);
+	}
+
+	//SpawnSpeedUp
+	void SpawnSpeedUp(){
+		Instantiate (SpeedUp, new Vector3 (Random.Range (-16, 16), Random.Range (-9, 9), 0)
 		             , Quaternion.identity);
 	}
 }

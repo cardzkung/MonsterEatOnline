@@ -7,7 +7,7 @@ public class SpawnSpeedUp : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		int RandomSpawn = Random.Range (80, 100);
-		InvokeRepeating ("Spawn", 80f, RandomSpawn); 
+		InvokeRepeating ("Spawn", 1f, RandomSpawn); 
 	}
 	
 	// Update is called once per frame
