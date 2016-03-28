@@ -3,14 +3,14 @@ using System.Collections;
 
 public class HowtoPlay : MonoBehaviour {
 
-	public GUISkin mySkin;
+	//public GUISkin mySkin;
 	public int buttonWidth ;
 	public int buttonHeight ;
 
 	void Start(){
 		Time.timeScale = 1;
 	}
-
+/*
 	void OnGUI(){
 		GUI.skin = mySkin;
 		// Go to Menu
@@ -23,5 +23,15 @@ public class HowtoPlay : MonoBehaviour {
 			Application.LoadLevel ("Menu");
 			GetComponents<AudioSource>()[0].Play();
 		}
+	}
+*/
+	public void playClick(){
+		Application.LoadLevel ("Level1");
+		GetComponents<AudioSource> () [0].Play ();
+	}
+
+	public void menuClick(){
+		Application.LoadLevel ("Menu");
+		GetComponents<AudioSource> () [0].Play ();
 	}
 }

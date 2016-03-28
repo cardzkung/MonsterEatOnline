@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour {
 	public static IEnumerator SpeedUp(){
 		MonsterController.maxSpeed = 8f;
 		yield return new WaitForSeconds (3);
-		MonsterController.maxSpeed = 4f;
+		MonsterController.maxSpeed = 3f;
 	}
 
 	void Update () {
@@ -52,10 +52,9 @@ public class UIManager : MonoBehaviour {
 		HitTxt.text = "HIT: " + Hit;
 		time += Time.deltaTime;
 	}
-
+/*
 	public GUISkin mySkin;
 
-	
 	void OnGUI(){
 		GUI.skin = mySkin;
 		//GUI.Label (new Rect (Screen.width / 2 +100, 10, 200, 200), "SCORE: " + playerScore);
@@ -79,5 +78,13 @@ public class UIManager : MonoBehaviour {
 				GetComponents<AudioSource> () [0].Play ();
 			}
 		} 
+	}
+*/
+	public void hitClick(){
+			if(Score >= 20){
+				UIManager.IncreaseHit();
+				UIManager.DecreaseScore();
+				GetComponents<AudioSource> () [0].Play ();
+			}
 	}
 }

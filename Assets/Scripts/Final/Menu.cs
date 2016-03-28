@@ -5,12 +5,12 @@ public class Menu : MonoBehaviour {
 
 	public int buttonWidth ;
 	public int buttonHeight ;
-	public GUISkin mySkin;
+	//public GUISkin mySkin;
 
 	void Start(){
 		Time.timeScale = 1;
 	}
-
+/*
 	void OnGUI () {
 		GUI.skin = mySkin;
 		//Go to Play
@@ -30,5 +30,19 @@ public class Menu : MonoBehaviour {
 		}
 	
 	}
+*/
+	public void startClick(){
+		Application.LoadLevel ("Level1");
+		GetComponents<AudioSource> () [0].Play ();
+	}
 
+	public void howtoplayClick(){
+		Application.LoadLevel ("HowtoPlay");
+		GetComponents<AudioSource>()[0].Play();
+	}
+
+	public void exitClick(){
+		Application.Quit ();
+		GetComponents<AudioSource>()[0].Play();
+	}
 }
