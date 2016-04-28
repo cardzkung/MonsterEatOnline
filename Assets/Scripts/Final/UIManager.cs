@@ -42,7 +42,7 @@ public class UIManager : MonoBehaviour {
 	}
 
 	public static IEnumerator SpeedUp(){
-		MonsterController.maxSpeed = 8f;
+		MonsterController.maxSpeed = 6f;
 		yield return new WaitForSeconds (3);
 		MonsterController.maxSpeed = 3f;
 	}
@@ -52,6 +52,15 @@ public class UIManager : MonoBehaviour {
 		HitTxt.text = "HIT: " + Hit;
 		time += Time.deltaTime;
 	}
+
+	public void hitClick(){
+		if(Score >= 20){
+			UIManager.IncreaseHit();
+			UIManager.DecreaseScore();
+			GetComponents<AudioSource> () [0].Play ();
+		}
+	}
+
 /*
 	public GUISkin mySkin;
 
@@ -80,11 +89,5 @@ public class UIManager : MonoBehaviour {
 		} 
 	}
 */
-	public void hitClick(){
-			if(Score >= 20){
-				UIManager.IncreaseHit();
-				UIManager.DecreaseScore();
-				GetComponents<AudioSource> () [0].Play ();
-			}
-	}
+
 }

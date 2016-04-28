@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class MonsterController : MonoBehaviour {
+public class MonsterController : NetworkBehaviour {
 
-	public static float maxSpeed = 4f;
+	public static float maxSpeed = 3f;
 	private Rigidbody2D rb2D;
 	Animator anim;
 	
@@ -48,13 +49,14 @@ public class MonsterController : MonoBehaviour {
 			anim.SetBool ("Right", false);
 		} 
 	}
+	
 
 	void OnTriggerEnter2D (Collider2D hitInfo){
 		//Egg's Effect
 		if (hitInfo.gameObject.tag == "Food") {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerScore += 1;
-			UIManager.EggScore();
+			UIManager.EggScore ();
 			transform.localScale += new Vector3 (0.1f, 0.1f, 0.1f);
 			//GameObject.FindGameObjectWithTag("PlayerCam").GetComponent<CircleCollider2D>().radius += 0.1f;
 			GetComponents<AudioSource> () [0].Play ();
@@ -63,7 +65,7 @@ public class MonsterController : MonoBehaviour {
 		else if (hitInfo.gameObject.tag == "Bonus") {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerScore += 10;
-			UIManager.BonusScore();
+			UIManager.BonusScore ();
 			transform.localScale -= new Vector3 (0.5f, 0.5f, 0.5f);
 			GetComponents<AudioSource> () [0].Play ();
 		} 
@@ -71,27 +73,35 @@ public class MonsterController : MonoBehaviour {
 		else if (hitInfo.gameObject.tag == "Sword") {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerHit += 1;
-			UIManager.IncreaseHit();
+			UIManager.IncreaseHit ();
 			GetComponents<AudioSource> () [0].Play ();
 		} 
 		//Enemy's Effect. If you no Hit. Your HP -1.
 		else if (hitInfo.gameObject.tag == "Enemy" && UIManager.Hit == 0 
-		           && UIManager.HP >= 1) {
+			&& UIManager.HP >= 1) {
 			//GetComponent<Scores> ().playerLives -= 1;
-			UIManager.DecreaseHP();
+			UIManager.DecreaseHP ();
+			//Debug.Log (UIManager.HP);
 		} 
 		//Enemy's Effect. If you have Hit, Your Hit -1 but your HP not decrease.
-		else if (hitInfo.gameObject.tag == "Enemy" && UIManager.Hit >= 0) {
+		else if (hitInfo.gameObject.tag == "Enemy" && UIManager.Hit >= 1 && UIManager.HP >= 1) {
 			Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerHit -= 1;
-			UIManager.DecreaseHit();
+			UIManager.DecreaseHit ();
 			GetComponents<AudioSource> () [1].Play ();
 		} //else if (hitInfo.gameObject.tag == "Heart") {
 			//Destroy (hitInfo.gameObject);
 			//GetComponent<Scores> ().playerLives += 1;
 		 else if (hitInfo.gameObject.tag == "SpeedUp") {
 			Destroy (hitInfo.gameObject);
-			StartCoroutine (UIManager.SpeedUp());
+			GetComponents<AudioSource> () [0].Play ();
+			StartCoroutine (UIManager.SpeedUp ());
+		} 
+		//When Player Die
+		if (UIManager.HP <= 0) {
+//			StartCoroutine (NetworkedPlayerScript.Respawn());
+			GetComponent<NetworkedPlayerScript>().Die();
+			GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
 		}
 	}
 

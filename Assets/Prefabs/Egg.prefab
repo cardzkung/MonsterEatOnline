@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9501798}
   - 60: {fileID: 6031080}
   - 114: {fileID: 11451116}
+  - 114: {fileID: 11491138}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Food
@@ -86,6 +87,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   times: 30
+--- !u!114 &11491138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 90
+    i1: 149
+    i2: 21
+    i3: 52
+    i4: 232
+    i5: 0
+    i6: 126
+    i7: 36
+    i8: 203
+    i9: 44
+    i10: 73
+    i11: 127
+    i12: 63
+    i13: 111
+    i14: 81
+    i15: 164
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!212 &21271704
 SpriteRenderer:
   m_ObjectHideFlags: 1
